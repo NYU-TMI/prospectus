@@ -1,0 +1,30 @@
+button {
+  display: none;
+}
+img {
+  width: 100%;
+}
+.prospectus {
+    margin: 0 20%;
+}
+.comment-holder {
+    position: absolute;
+    width: 20%;
+}
+
+.comment-holder .user-comment {
+    margin: 15px 15px -16px 15px;
+    padding: 15px;
+    background: #ffff66;
+    border: 1px solid #ccc;
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+.comment-holder.left {
+    left: 0;
+}
+
+.comment-holder.right {
+    right: 0;
+}
